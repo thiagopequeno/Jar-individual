@@ -263,12 +263,12 @@ public class Login extends javax.swing.JFrame {
         }
 
       //
-        String nome = "CEZA";
+     //   String nome = "CEZA";
 
-        Teste conexao = new Teste();
-        JdbcTemplate con = conexao.getConnection();
+    //    Teste conexao = new Teste();
+     //   JdbcTemplate con = conexao.getConnection();
 
-        con.update("INSERT INTO teste (nome) values (?)", nome);
+    //    con.update("INSERT INTO teste (nome) values (?)", nome);
 
 
     }//GEN-LAST:event_btnlogarActionPerformed
