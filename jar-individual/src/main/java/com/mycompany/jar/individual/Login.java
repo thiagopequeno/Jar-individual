@@ -235,7 +235,7 @@ public class Login extends javax.swing.JFrame {
         }
         
         String query01 = String.format("select * from usuario where email = '%s' and senha = '%s'", email, senha);
-        String query02 = String.format("INSERT INTO Registro values ('%s', '%s', '%s', '%s','20', '35', '48', '60', 6, 24, 4, 4)", formattedDateTime, processador.getUso(), porcentagemDaMemoriaRam, memoria.getTotal());
+        String query02 = String.format("INSERT INTO Registro values ('%s', '%s', '%s', '%s','20', '35', '48', '60', 10, 3, 4, 3)", formattedDateTime, processador.getUso(), porcentagemDaMemoriaRam, memoria.getTotal());
 
         List<Usuario> usuarios = con.query(query01, new UsuarioRowMapper());
         //  con.update(String.format("insert into filme values (null,'%s',%d)",novoFilme.getNome(),novoFilme.getAnoLancamento()));
